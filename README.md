@@ -1,5 +1,6 @@
 ![](https://cllli.oss-cn-beijing.aliyuncs.com/banner-blog.cllli.webp)
 # 站点设置
+```
 site:
   name: # 左上角显示内容
     class:  text #i_class/text/img
@@ -7,9 +8,11 @@ site:
   siteIcon: https://ossoososssn.oss-cn-beijing.aliyuncs.com/files/about-logo.png # 网页icon
   icon: https://ossoososssn.oss-cn-beijing.aliyuncs.com/files/loading.gif # 页脚的icon、加载动画默认的icon
   icp:  # ICP 例如：湘ICP备2023015327号
-
+```
 
 # 导航栏
+
+```
 nav:
   #导航栏左侧
   left:
@@ -20,7 +23,9 @@ nav:
             icon: https://avatars.githubusercontent.com/u/94744879?v=4
             url: https://github.com/DuoSco/Hexo-Theme-solitude
 
+```
   # 导航栏内容
+  ```
   menu:
       文库:
         url: false
@@ -34,18 +39,20 @@ nav:
           全部标签:
             url: /tags/
             icon: scoicon sco-price-tag-fill
-  #    友链:
-  #      url: false
-  #      child:
-  #        鱼塘:
-  #          url: /moments/
-  #          icon: scoicon sco-wifi-fill
-  #        友情链接:
-  #          url: /links/
-  #          icon: scoicon sco-group-fill
-  #        宝藏博主:
-  #          url: javascript:travelling()
-  #          icon: scoicon sco-gift-fill
+
+            
+      友链:
+        url: false
+        child:
+          鱼塘:
+            url: /moments/
+            icon: scoicon sco-wifi-fill
+          友情链接:
+            url: /links/
+            icon: scoicon sco-group-fill
+          宝藏博主:
+            url: javascript:travelling()
+            icon: scoicon sco-gift-fill
       我的:
         url: false
         child:
@@ -61,19 +68,24 @@ nav:
           关于本站:
             url: /about/
             icon: scoicon sco-contacts-fill
-
+```
 
   # 导航栏右侧快捷菜单 (true,false)
+```
   right: # @todo 允许用户自定义
     travellings: false      #开往
     random: true           # 随机文章跳转
     console: true          #控制台
+```
 
 # 自定义icon
+```
 icon:
   customicon: //at.alicdn.com/t/c/font_4279509_pff2t0cmwos.css
+```
 
 # 首页顶部样式
+```
 hometop:
   bbtime: false # 即刻顶部是否开启
   banner:
@@ -106,8 +118,9 @@ hometop:
       VS:
         img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/vs-logo.svg
         color: '#ffffff'
-
+```
   # 顶部三大分类
+```  
   categoryGroup:
     G1:
       name: chatgpt
@@ -121,16 +134,18 @@ hometop:
       name: 实用教程
       icon: scoicon sco-book-mark-fill
       url: /tags/教程/
-
+```
   # 右侧置顶列表（在文章的front matter中添加“recommend: true”）
+```
   recommendList:
     sup: 置顶 # 左上角显示文字
     title: 实用工具 # 左下角大字
     url: https://blog.cllli.com/tlink/ # 点击跳转链接
     img: https://ossoososssn.oss-cn-beijing.aliyuncs.com/images/software/GettyImages-1136829806-e1667836169987.webp # 显示背景
     color: '#ff0000' # 背景颜色
-
+```
 # 侧边栏
+```
 aside:
   # 值：about（关于我）、power（爱发电）、newestPost（最新文章）、allInfo（网站信息）、flip（公众号二维码）、welcome（个性定位）、history（那年今日）
   home: # 在主页显示的侧边栏信息
@@ -142,12 +157,12 @@ aside:
   page: # 在页面中显示的侧边栏信息
     noSticky: "about"
     Sticky: "newestPost,allInfo"
-  # 爱发电
+   爱发电
   power:
     link: https://afdian.net/a/wleelw0u0
     post: false
     page: false
-  # 侧边栏个人信息卡片
+   侧边栏个人信息卡片
   card:
     author:
       img: https://avatars.githubusercontent.com/u/94744879?v=4 # 头像
@@ -199,11 +214,12 @@ aside:
     updatetime: true # 最后更新日期
     runtimeenable: true # 建站时间
     runtime: '2020-04-20 00:00:00' # 格式：yyyy-MM-dd hh-mm-ss
-
+```
 # Footer Settings
 # --------------------------------------
 footer:
   # 底部上方一排图标
+```  
   information:
     left: # 左侧显示图标
           Github:
@@ -219,22 +235,24 @@ footer:
         抖音:
           icon: iconfont icon-weibo
           url: https://weibo.com/u/6124296623
+```          
   # 底部导航栏
+```  
   group: # 从左至右
-  #    导航:
-  #      归档: /archives/
-  #      分类: /categories/
-  #      标签: /tags/
-  #    服务:
-  #      阿里云: https://aliyun.com/
-  #      51la统计: https://v6.51.la/
-  #      百度统计: https://tongji.baidu.com/
-  #    支持:
-  #      打赏记录: /about/
-  #    协议:
-  #      Cookies: /cookies/
-  #      用户协议: /privacy/
-  #      版权协议: /copyright/
+      导航:
+        归档: /archives/
+        分类: /categories/
+        标签: /tags/
+      服务:
+        阿里云: https://aliyun.com/
+        51la统计: https://v6.51.la/
+        百度统计: https://tongji.baidu.com/
+      支持:
+        打赏记录: /about/
+      协议:
+        Cookies: /cookies/
+        用户协议: /privacy/
+        版权协议: /copyright/
 
   # 底部随机友链
   randomlink: false
@@ -247,22 +265,26 @@ footer:
   # 版权
   license:
     url: /copyright/
-
+```
 # 页面页默认设置
+```
 page:
   error: true #
   tags: true # 标签
   categories: true # 分类
   default: # 默认值
     cover: /img/default.png # 默认图片
-
+```
 # 文章页默认设置
+```
 post:
   default: 
     cover: /img/default.png
     locate: 大连
     copyright: 原创
+```
   # 顶部文章简介
+```  
   meta:
     date: true # 发布日期
     updated: true # 更新日期
@@ -271,46 +293,57 @@ post:
     readtime: true # 访问
     pv: true # 浏览量
     comment: true # 评论数
+```    
   # 打赏
+```  
   award:
     enable: false # 开启后文章底部显示打赏按钮
     wechat:  # 微信收款码
     alipay:  # 支付宝收款码
     url: /about # 打赏统计页面链接
+```
   # 文章颜色获取
+```
   covercolor: #文章cover取色
     enable: true
     local: true
-
+```
 # 关于界面
+```
 about: true
-
+```
 # 404 页面
+```
 errorpage:
   img: https://npm.elemecdn.com/wzheo-absolute@1.0.3/image/source/404.png
   text: =awa= 糟糕页面走丢了
   recommendList: true # 显示随机文章
-
+```
 # 懒加载
+```
 lazyload:
   enable: false
   placeholder: /img/loading.gif # 加载中显示图片
   errorimg: /img/error_load.png # 加载失败显示图片
-
+```
 # 图片灯箱
+```
 lightbox: true
-
+```
 #代码高亮增强
+```
 hightlight:
   enable: true
   hightlimit: 200
-
+```
 # 加载动画
+```
 loading:
   fullpage: true
   pace: true
-
+```
 # 第三方设置
+```
 thirdparty:
   wordcount: false # 字数统计
   busuanzi:
@@ -390,8 +423,9 @@ pwa:
   startup_image_enable: false
   manifest: /manifest.json
   theme_color: '#ffffff'
-
+```
 # 非必要勿动
+```
 cdn:
   head:
     snackbarcss: /lib/snackbar.min.css
@@ -415,3 +449,4 @@ cdn:
     metingjs: https://cdn.bootcdn.net/ajax/libs/meting/2.0.1/Meting.min.js
     katexcss: https://cdn.bootcdn.net/ajax/libs/KaTeX/0.16.6/katex.min.css
     katexjs: https://cdn.bootcdn.net/ajax/libs/KaTeX/0.16.6/katex.min.js
+```
